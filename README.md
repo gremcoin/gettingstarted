@@ -20,25 +20,10 @@ Windows Wallet :
 Linux Wallet :
 
 CONFIG INSTRUCTIONS
-Download the file gremcoin-qt-windows.zip.
+Download the file gremcoin-qt-windows.zip. Install it.
 
-Open File Explorer and go to your downloads directory.
+Open File Explorer and search for %appdata%. Open the gremcoin.conf file inside the gremcoin folder with note pad. Change the node to this:
 
-Extract the zip file gremcoin-qt-windows.zip
-
-Click here to download cpuminer and extract the zip file.
-
-Open "Run" with the keyboard shortcut winkey + r.
-
-Enter the following text behind "Open": notepad
-
-Press on the button "OK".
-
-Paste the following into notepad.
-
-rpcuser=rpc_gremcoin
-rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
-rpcallowip=127.0.0.1
-listen=1
-server=1
 addnode=roller.gremcoin.vip
+
+Hit save as, change the file type in the drop down to "all files or something like that". Click on the gremcoin.conf file to make the name correct. Hit save, and replace it with this new hotness. Restart Gremcoin-QT and get the bloodchain flowing.
